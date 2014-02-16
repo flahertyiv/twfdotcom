@@ -16,6 +16,11 @@ body {
 .header {
   border-bottom: 1px solid #e5e5e5;
 }
+
+.sigimg
+  {
+    padding-bottom: 8px;
+  }
 /* Make the masthead heading the same height as the navigation */
 .header h3 {
   margin-top: 0;
@@ -68,6 +73,14 @@ body {
     padding-left: 0;
     padding-right: 0;
   }
+  /* Centered Text on Homepage */
+  #centered{
+      font-size: 28px;
+      width: 700px;
+      margin: 0 auto;
+      text-align: center;
+  }
+
   /* Space out the masthead */
   .header {
     margin-bottom: 30px;
@@ -77,3 +90,4 @@ body {
     border-bottom: 0;
   }
 }
+
